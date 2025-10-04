@@ -1,0 +1,1341 @@
+[
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.AwarenessController",
+    "Method": "GetAllAwareness",
+    "RelativePath": "GreenCycleAPI/Awareness",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.Awareness, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.AwarenessController",
+    "Method": "PostVehicle",
+    "RelativePath": "GreenCycleAPI/Awareness",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "awareness",
+        "Type": "GreenCycleFypAPI.Models.Awareness",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.Awareness",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.AwarenessController",
+    "Method": "GetAwarenessDetails",
+    "RelativePath": "GreenCycleAPI/Awareness/{AwarenessID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AwarenessID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.Awareness",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.AwarenessController",
+    "Method": "PutServiceLog",
+    "RelativePath": "GreenCycleAPI/Awareness/{AwarenessID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AwarenessID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "awareness",
+        "Type": "GreenCycleFypAPI.Models.Awareness",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.AwarenessController",
+    "Method": "DeleteAwareness",
+    "RelativePath": "GreenCycleAPI/Awareness/{AwarenessID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AwarenessID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.CartController",
+    "Method": "GetAllCart",
+    "RelativePath": "GreenCycleAPI/Cart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.Cart, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.CartController",
+    "Method": "PostCart",
+    "RelativePath": "GreenCycleAPI/Cart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cart",
+        "Type": "GreenCycleFypAPI.Models.Cart",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.Cart",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.CartController",
+    "Method": "GetCartDetails",
+    "RelativePath": "GreenCycleAPI/Cart/{CartID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CartID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.Cart",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.CartController",
+    "Method": "DeleteCart",
+    "RelativePath": "GreenCycleAPI/Cart/{CartID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CartID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.CartController",
+    "Method": "GetCartWithUserId",
+    "RelativePath": "GreenCycleAPI/Cart/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.Cart, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.CollectorLocationsController",
+    "Method": "GetAllCollectorLocations",
+    "RelativePath": "GreenCycleAPI/CollectorLocations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.CollectorLocations, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.CollectorLocationsController",
+    "Method": "PostCollectorLocations",
+    "RelativePath": "GreenCycleAPI/CollectorLocations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "collectorLocations",
+        "Type": "GreenCycleFypAPI.Models.CollectorLocations",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.CollectorLocations",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.CollectorLocationsController",
+    "Method": "GetCollectorLocationsDetailsWithUserID",
+    "RelativePath": "GreenCycleAPI/CollectorLocations/{CollectorUserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CollectorUserID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.CollectorLocations",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.CollectorLocationsController",
+    "Method": "PutCollectorLocations",
+    "RelativePath": "GreenCycleAPI/CollectorLocations/{CollectorUserID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CollectorUserID",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "collectorLocations",
+        "Type": "GreenCycleFypAPI.Models.CollectorLocations",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.CollectorLocationsController",
+    "Method": "DeleteCollectorLocations",
+    "RelativePath": "GreenCycleAPI/CollectorLocations/{CollectorUserID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CollectorUserID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.FcmTokenController",
+    "Method": "GetAllUsersFcmToken",
+    "RelativePath": "GreenCycleAPI/FcmToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.FcmToken, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.FcmTokenController",
+    "Method": "PostOrUpdateFcmToken",
+    "RelativePath": "GreenCycleAPI/FcmToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fcmToken",
+        "Type": "GreenCycleFypAPI.Models.FcmToken",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.FcmToken",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.FcmTokenController",
+    "Method": "GetFcmTokenWithUserId",
+    "RelativePath": "GreenCycleAPI/FcmToken/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.FcmToken",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.FcmTokenController",
+    "Method": "DeleteUserFcmToken",
+    "RelativePath": "GreenCycleAPI/FcmToken/{UserID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.ItemListingController",
+    "Method": "GetAllItemListing",
+    "RelativePath": "GreenCycleAPI/ItemListing",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.ItemListing, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.ItemListingController",
+    "Method": "PostItemListing",
+    "RelativePath": "GreenCycleAPI/ItemListing",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemListing",
+        "Type": "GreenCycleFypAPI.Models.ItemListing",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.ItemListing",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.ItemListingController",
+    "Method": "GetItemListingDetails",
+    "RelativePath": "GreenCycleAPI/ItemListing/{ItemListingID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ItemListingID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.ItemListing",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.ItemListingController",
+    "Method": "PutItemListing",
+    "RelativePath": "GreenCycleAPI/ItemListing/{ItemListingID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ItemListingID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "itemListing",
+        "Type": "GreenCycleFypAPI.Models.ItemListing",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.ItemListingController",
+    "Method": "DeleteItemListing",
+    "RelativePath": "GreenCycleAPI/ItemListing/{ItemListingID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ItemListingID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.ItemListingController",
+    "Method": "GetItemListingWithUserId",
+    "RelativePath": "GreenCycleAPI/ItemListing/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.ItemListing, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PickupRequestController",
+    "Method": "GetAllPickupRequest",
+    "RelativePath": "GreenCycleAPI/PickupRequest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.PickupRequest, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PickupRequestController",
+    "Method": "PostPickupRequest",
+    "RelativePath": "GreenCycleAPI/PickupRequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pickupRequest",
+        "Type": "GreenCycleFypAPI.Models.PickupRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.PickupRequest",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PickupRequestController",
+    "Method": "GetPickupRequestDetails",
+    "RelativePath": "GreenCycleAPI/PickupRequest/{PickupRequestID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PickupRequestID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.PickupRequest",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PickupRequestController",
+    "Method": "PutItemListing",
+    "RelativePath": "GreenCycleAPI/PickupRequest/{PickupRequestID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PickupRequestID",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "pickupRequest",
+        "Type": "GreenCycleFypAPI.Models.PickupRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PickupRequestController",
+    "Method": "DeletePickupRequest",
+    "RelativePath": "GreenCycleAPI/PickupRequest/{PickupRequestID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PickupRequestID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PickupRequestController",
+    "Method": "GetPickupRequestWithUserId",
+    "RelativePath": "GreenCycleAPI/PickupRequest/User/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.PickupRequest, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PointsController",
+    "Method": "GetAllPointTransaction",
+    "RelativePath": "GreenCycleAPI/Points",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.Points, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PointsController",
+    "Method": "PostPointTransaction",
+    "RelativePath": "GreenCycleAPI/Points",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "points",
+        "Type": "GreenCycleFypAPI.Models.Points",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.Points",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PointsController",
+    "Method": "GetPointTransactionDetails",
+    "RelativePath": "GreenCycleAPI/Points/{PointsID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PointsID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.Points",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PointsController",
+    "Method": "PutItemListing",
+    "RelativePath": "GreenCycleAPI/Points/{PointsID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PointsID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "points",
+        "Type": "GreenCycleFypAPI.Models.Points",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PointsController",
+    "Method": "DeletePointTransaction",
+    "RelativePath": "GreenCycleAPI/Points/{PointsID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PointsID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PointsController",
+    "Method": "GetPointTransactionWithUserId",
+    "RelativePath": "GreenCycleAPI/Points/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.Points, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PurchasesController",
+    "Method": "GetAllPurchases",
+    "RelativePath": "GreenCycleAPI/Purchases",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.Purchases, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PurchasesController",
+    "Method": "PostPurchases",
+    "RelativePath": "GreenCycleAPI/Purchases",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "purchases",
+        "Type": "GreenCycleFypAPI.Models.Purchases",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.Purchases",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PurchasesController",
+    "Method": "GetPurchaseDetails",
+    "RelativePath": "GreenCycleAPI/Purchases/{PurchaseID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PurchaseID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.Purchases",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PurchasesController",
+    "Method": "PutPurchases",
+    "RelativePath": "GreenCycleAPI/Purchases/{PurchaseID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PurchaseID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "purchases",
+        "Type": "GreenCycleFypAPI.Models.Purchases",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PurchasesController",
+    "Method": "DeletePurchases",
+    "RelativePath": "GreenCycleAPI/Purchases/{PurchaseID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PurchaseID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PurchasesController",
+    "Method": "GetPurchasesWitSellerhUserId",
+    "RelativePath": "GreenCycleAPI/Purchases/Seller/{SellerUserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SellerUserID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.Purchases, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.PurchasesController",
+    "Method": "GetPurchasesWithUserId",
+    "RelativePath": "GreenCycleAPI/Purchases/User/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.Purchases, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.RewardController",
+    "Method": "GetAllReward",
+    "RelativePath": "GreenCycleAPI/Reward",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.Reward, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.RewardController",
+    "Method": "PostReward",
+    "RelativePath": "GreenCycleAPI/Reward",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reward",
+        "Type": "GreenCycleFypAPI.Models.Reward",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.Reward",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.RewardController",
+    "Method": "GetRewardDetails",
+    "RelativePath": "GreenCycleAPI/Reward/{RewardID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RewardID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.Reward",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.RewardController",
+    "Method": "PutReward",
+    "RelativePath": "GreenCycleAPI/Reward/{RewardID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RewardID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "reward",
+        "Type": "GreenCycleFypAPI.Models.Reward",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.RewardController",
+    "Method": "DeleteReward",
+    "RelativePath": "GreenCycleAPI/Reward/{RewardID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RewardID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.RewardRedemptionController",
+    "Method": "GetAllRewardRedemption",
+    "RelativePath": "GreenCycleAPI/RewardRedemption",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.RewardRedemption, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.RewardRedemptionController",
+    "Method": "PostRewardRedemption",
+    "RelativePath": "GreenCycleAPI/RewardRedemption",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rewardRedemption",
+        "Type": "GreenCycleFypAPI.Models.RewardRedemption",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.RewardRedemption",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.RewardRedemptionController",
+    "Method": "GetRewardRedemptionDetails",
+    "RelativePath": "GreenCycleAPI/RewardRedemption/{RewardRedemptionID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RewardRedemptionID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.RewardRedemption",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.RewardRedemptionController",
+    "Method": "PutRewardRedemption",
+    "RelativePath": "GreenCycleAPI/RewardRedemption/{RewardRedemptionID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RewardRedemptionID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rewardRedemption",
+        "Type": "GreenCycleFypAPI.Models.RewardRedemption",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.RewardRedemptionController",
+    "Method": "DeleteRewardRedemption",
+    "RelativePath": "GreenCycleAPI/RewardRedemption/{RewardRedemptionID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RewardRedemptionID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.RewardRedemptionController",
+    "Method": "GetRewardRedemptionWithUserId",
+    "RelativePath": "GreenCycleAPI/RewardRedemption/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.RewardRedemption, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "GreenCycleAPI/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GreenCycleFypAPI.Models.User, GreenCycleFypAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.UserController",
+    "Method": "PostUser",
+    "RelativePath": "GreenCycleAPI/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "GreenCycleFypAPI.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.UserController",
+    "Method": "GetUserWithUserId",
+    "RelativePath": "GreenCycleAPI/User/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GreenCycleFypAPI.Models.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.UserController",
+    "Method": "PutUser",
+    "RelativePath": "GreenCycleAPI/User/{UserID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "user",
+        "Type": "GreenCycleFypAPI.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenCycleFypAPI.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "GreenCycleAPI/User/{UserID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "7RzCeDESpWOt3BlVaK9G0/za8jNQeNHDKTfW2KhsT5c=",
+  "Source": "GreenCycleFypAPI",
+  "BasePath": "_content/GreenCycleFypAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
